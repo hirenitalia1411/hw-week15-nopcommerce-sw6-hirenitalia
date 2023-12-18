@@ -10,9 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
 
-/**
- * Created by Jay Vaghani
- */
 public class ManageBrowser {
 
     public static WebDriver driver;
@@ -21,7 +18,7 @@ public class ManageBrowser {
 
     public ManageBrowser() {
         PageFactory.initElements(driver, this);
-        PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/java/resources/propertiesfile/log4j2.properties");
+        PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/resources/propertiesfile/log4j2.properties");
     }
 
     public void selectBrowser(String browser){

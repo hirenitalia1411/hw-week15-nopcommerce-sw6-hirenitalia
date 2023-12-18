@@ -13,9 +13,6 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Jay Vaghani
- */
 public class Utility extends ManageBrowser {
     /*Utility Class extends to ManageBrowser for the driver to finding locators
      *All common methods are fixed in the utility Class.
